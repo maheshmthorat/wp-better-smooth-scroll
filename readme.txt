@@ -1,15 +1,15 @@
 === Better Smooth Scroll ===
 Contributors: maheshmthorat
 Donate Link: https://rzp.io/l/maheshmthorat
-Tags: better-smooth-scroll, bettersmoothscroll, smooth, scrolleffect, smoothscroll, scrollingsmooth, scroll
+Tags: better-smooth-scroll, bettersmoothscroll, scrolleffect, smoothscroll, scroll
 Requires at least: 4.5
 Requires PHP: 5.6
-Tested up to: 6.1.1
-Stable tag: 0.2
+Tested up to: 6.4.3
+Stable tag: 1.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-A lightweight and very fast javascript library that provides enriched versions of the browsers' scrolling APIs with support for smooth-scrolling, callbacks and many other features.
+A fast, lightweight JS library for enriched scrolling APIs with smooth-scrolling, callbacks, and more features.
 
 == Description ==
 
@@ -65,6 +65,13 @@ KaiOS Browser	❔
 3. Scroll bars designs on mobile devices.
 
 == Changelog ==
+
+= 1.1 =
+* Security Update
+
+= 1.0 =
+* Tested with WordPress 6.4.3
+* Minor Fixes
 
 = 0.2 =
 * Compressed Script up to 50%
