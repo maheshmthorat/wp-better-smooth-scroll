@@ -239,7 +239,7 @@ class Better_Smooth_Scroll_Admin
 											</div>
 
 											<div class="form-footer">
-												<input type="submit" class="button button-primary button-theme" value="<?php esc_attr(__('Update Settings', 'better-smooth-scroll')); ?>">
+												<input type="submit" class="button button-primary button-theme" value="<?php echo esc_attr(__('Update Settings', 'better-smooth-scroll')); ?>">
 											</div>
 										</div>
 									</form>

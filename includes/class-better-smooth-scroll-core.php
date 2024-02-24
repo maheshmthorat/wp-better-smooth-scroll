@@ -54,6 +54,15 @@ class Better_Smooth_Scroll_Core
             add_action('wp_enqueue_scripts', function () {
                wp_enqueue_script('better-smooth-scroll-script', plugin_dir_url(__FILE__) . 'js/bettersmoothscroll.js', array(), BSS_PLUGIN_VERSION, false);
             });
+
+            $a = 0;
+            add_filter('wp_resource_hints', function ($urls, $relation_type) use (&$a) {
+               if ($a == 0) {
+                  echo '<link rel="preload" href="' . esc_url(plugin_dir_url(__FILE__) . 'js/bettersmoothscroll.js?ver=' . BSS_PLUGIN_VERSION) . '" as="script" />';
+                  $a = 1;
+               }
+               return $urls;
+            }, 10, 2);
          }
       }
       if (is_admin()) {
@@ -75,7 +84,7 @@ class Better_Smooth_Scroll_Core
    {
       $opts = get_option('_bss_smooth_scroll');
 ?>
-      <style type="text/css">
+      <style id="<?php echo esc_attr(BSS_PLUGIN_IDENTIFIER); ?>-inline-css" type="text/css">
          html {
             overflow: hidden !important;
          }
