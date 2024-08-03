@@ -4,7 +4,7 @@ Donate Link: https://rzp.io/l/maheshmthorat
 Tags: better-smooth-scroll, bettersmoothscroll, scrolleffect, smoothscroll, scroll
 Requires at least: 4.5
 Requires PHP: 5.6
-Tested up to: 6.4.3
+Tested up to: 6.6
 Stable tag: 1.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
