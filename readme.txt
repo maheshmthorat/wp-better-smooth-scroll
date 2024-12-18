@@ -1,10 +1,10 @@
 === Better Smooth Scroll ===
 Contributors: maheshmthorat
-Donate Link: https://rzp.io/l/maheshmthorat
+Donate Link: https://buymeacoffee.com/maheshmthorat
 Tags: better-smooth-scroll, bettersmoothscroll, scrolleffect, smoothscroll, scroll
 Requires at least: 4.5
 Requires PHP: 5.6
-Tested up to: 6.6
+Tested up to: 6.6.2
 Stable tag: 1.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -45,6 +45,13 @@ QQ Browser	❔
 KaiOS Browser	❔
 
 == PLUGIN FEATURES ==
+🔹 **Smooth Scrolling**: Achieve fluid, polished scrolling transitions that enhance user navigation and interaction.
+🔹 **Multiple Scroll Animations**: Trigger multiple scroll animations simultaneously across different containers with precise control.
+🔹 **Custom Easing Functions**: Define custom easing functions to tailor scroll animations according to your design needs.
+🔹 **Interruptible Animations**: Easily interrupt any scroll animation at any point, providing a smooth and responsive user experience.
+🔹 **Framework Compatibility**: Fully supports TypeScript, React.js, Next.js, and many other JavaScript frameworks, ensuring seamless integration into your development stack.
+🔹 **Playground for Exploration**: Test and explore a variety of features and configurations using the interactive Playground.
+🔹 **Browser Compatibility**: Compatible with major browsers including Edge, Firefox, Chrome, Safari, Opera, and mobile browsers like Safari for iOS and Chrome for Android.
 
 == Installation ==
 
